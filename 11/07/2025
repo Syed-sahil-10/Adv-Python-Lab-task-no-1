@@ -1,0 +1,134 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOYwF8pi5mHyd8VdTZo6WKf",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Syed-sahil-10/Adv-Python-Lab-task-no-1/blob/main/11/07/2025\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "4U-L5Gbi47cN"
+      },
+      "outputs": [],
+      "source": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#identifying larger number\n",
+        "a=5\n",
+        "b=10\n",
+        "if(a>b):\n",
+        "    print(\"a is greater\")\n",
+        "\n",
+        "else:\n",
+        "        print(\"b is greater\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "je6Kue5w48MS",
+        "outputId": "398736b9-39af-45a2-9c5e-148fa160d00b"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "b is greater\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "!pip install numpy"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "CoxKabdE5GHY",
+        "outputId": "decffdc6-8c9a-4e75-d250-38cd40292c3f"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Requirement already satisfied: numpy in /usr/local/lib/python3.11/dist-packages (2.0.2)\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "wBO3Gzhe5N6W"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "cddb5170",
+        "outputId": "a769f1b1-6fa0-48b2-dd9f-e09f9441f0ba"
+      },
+      "source": [
+        "import numpy as np\n",
+        "\n",
+        "# Create a numpy array\n",
+        "my_array = np.array([1, 2, 3, 4, 5])\n",
+        "\n",
+        "# Print the array\n",
+        "print(my_array)\n",
+        "\n",
+        "# Perform a simple operation\n",
+        "print(my_array * 2)"
+      ],
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[1 2 3 4 5]\n",
+            "[ 2  4  6  8 10]\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
